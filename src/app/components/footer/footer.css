@@ -1,0 +1,54 @@
+.footer {
+  background-color: var(--bg-secondary);
+  padding: 4rem 2rem 2rem;
+  margin-top: 4rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto 3rem;
+}
+
+.education, .contact {
+  max-width: 400px;
+}
+
+.footer h3 {
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.degree {
+  color: var(--accent-color);
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.college {
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.date {
+  color: var(--text-secondary);
+  font-family: monospace;
+}
+
+.contact p {
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding-top: 2rem;
+  color: var(--text-secondary);
+  font-family: monospace;
+  font-size: 0.9rem;
+}
